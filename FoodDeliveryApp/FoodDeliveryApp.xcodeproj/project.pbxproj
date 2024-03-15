@@ -31,6 +31,11 @@
 		8CAA5BBB2BA38C800086B929 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BBA2BA38C800086B929 /* Coordinator.swift */; };
 		8CAA5BCF2BA43B090086B929 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BCE2BA43B090086B929 /* AppCoordinator.swift */; };
 		8CAA5BD12BA43C1A0086B929 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD02BA43C1A0086B929 /* OnboardingCoordinator.swift */; };
+		8CAA5BD32BA441910086B929 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD22BA441910086B929 /* ProfileCoordinator.swift */; };
+		8CAA5BD52BA441A00086B929 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD42BA441A00086B929 /* HomeCoordinator.swift */; };
+		8CAA5BD72BA441AE0086B929 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD62BA441AE0086B929 /* ListCoordinator.swift */; };
+		8CAA5BD92BA441BE0086B929 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD82BA441BE0086B929 /* OrderCoordinator.swift */; };
+		8CAA5BDB2BA443110086B929 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BDA2BA443110086B929 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		8CAA5BBA2BA38C800086B929 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8CAA5BCE2BA43B090086B929 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		8CAA5BD02BA43C1A0086B929 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		8CAA5BD22BA441910086B929 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		8CAA5BD42BA441A00086B929 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		8CAA5BD62BA441AE0086B929 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		8CAA5BD82BA441BE0086B929 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		8CAA5BDA2BA443110086B929 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +181,7 @@
 		8CAA5BB82BA38C3F0086B929 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8CAA5BDA2BA443110086B929 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +192,10 @@
 				8CAA5BBA2BA38C800086B929 /* Coordinator.swift */,
 				8CAA5BCE2BA43B090086B929 /* AppCoordinator.swift */,
 				8CAA5BD02BA43C1A0086B929 /* OnboardingCoordinator.swift */,
+				8CAA5BD22BA441910086B929 /* ProfileCoordinator.swift */,
+				8CAA5BD42BA441A00086B929 /* HomeCoordinator.swift */,
+				8CAA5BD62BA441AE0086B929 /* ListCoordinator.swift */,
+				8CAA5BD82BA441BE0086B929 /* OrderCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -274,9 +289,14 @@
 				8CAA5BB62BA389250086B929 /* AppColors.swift in Sources */,
 				8CAA5BD12BA43C1A0086B929 /* OnboardingCoordinator.swift in Sources */,
 				8CAA5BCF2BA43B090086B929 /* AppCoordinator.swift in Sources */,
+				8CAA5BD92BA441BE0086B929 /* OrderCoordinator.swift in Sources */,
 				8CAA5B792BA366290086B929 /* SceneDelegate.swift in Sources */,
 				8CAA5BB32BA388480086B929 /* UIColor+Extension.swift in Sources */,
+				8CAA5BD72BA441AE0086B929 /* ListCoordinator.swift in Sources */,
+				8CAA5BD32BA441910086B929 /* ProfileCoordinator.swift in Sources */,
+				8CAA5BDB2BA443110086B929 /* TabBarController.swift in Sources */,
 				8CAA5BBB2BA38C800086B929 /* Coordinator.swift in Sources */,
+				8CAA5BD52BA441A00086B929 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
