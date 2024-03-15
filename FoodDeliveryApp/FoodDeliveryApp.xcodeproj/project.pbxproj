@@ -36,6 +36,8 @@
 		8CAA5BD72BA441AE0086B929 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD62BA441AE0086B929 /* ListCoordinator.swift */; };
 		8CAA5BD92BA441BE0086B929 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BD82BA441BE0086B929 /* OrderCoordinator.swift */; };
 		8CAA5BDB2BA443110086B929 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BDA2BA443110086B929 /* TabBarController.swift */; };
+		8CAA5BE12BA4AD710086B929 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BE02BA4AD710086B929 /* OnboardingViewPresenter.swift */; };
+		8CAA5BE32BA4CEF90086B929 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5BE22BA4CEF90086B929 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		8CAA5BD62BA441AE0086B929 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
 		8CAA5BD82BA441BE0086B929 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
 		8CAA5BDA2BA443110086B929 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8CAA5BE02BA4AD710086B929 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		8CAA5BE22BA4CEF90086B929 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		8CAA5B752BA366290086B929 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CAA5BDC2BA4ACBB0086B929 /* UILayer */,
 				8CAA5BB72BA38C240086B929 /* NavigationLayer */,
 				8CAA5B8A2BA3765E0086B929 /* Resources */,
 				8CAA5B762BA366290086B929 /* AppDelegate.swift */,
@@ -200,6 +205,23 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		8CAA5BDC2BA4ACBB0086B929 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CAA5BDD2BA4ACFC0086B929 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		8CAA5BDD2BA4ACFC0086B929 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8CAA5BE02BA4AD710086B929 /* OnboardingViewPresenter.swift */,
+				8CAA5BE22BA4CEF90086B929 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +318,8 @@
 				8CAA5BD32BA441910086B929 /* ProfileCoordinator.swift in Sources */,
 				8CAA5BDB2BA443110086B929 /* TabBarController.swift in Sources */,
 				8CAA5BBB2BA38C800086B929 /* Coordinator.swift in Sources */,
+				8CAA5BE12BA4AD710086B929 /* OnboardingViewPresenter.swift in Sources */,
+				8CAA5BE32BA4CEF90086B929 /* OnboardingViewController.swift in Sources */,
 				8CAA5BD52BA441A00086B929 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
